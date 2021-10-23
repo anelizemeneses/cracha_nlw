@@ -96,21 +96,10 @@ ul {
   border-radius: 10px;
   background: linear-gradient(
     to right,
-    rgb(97, 0, 65),
+    rgb(66, 0, 97),
     rgb(247, 0, 255),
-    yellow
+    rgb(0, 6, 88)
   );
-}
-
-.transition:hover {
-  height: 52px;
-  background: linear-gradient(
-    to right,
-    rgb(236, 126, 0),
-    rgb(255, 0, 140),
-    rgb(1, 255, 255)
-  );
-  transition: heigth 2s;
 }
 
 li a:hover {
