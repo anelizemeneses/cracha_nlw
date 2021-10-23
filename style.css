@@ -21,9 +21,10 @@ body {
 }
 
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
@@ -89,6 +90,27 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+#userLink:hover {
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgb(97, 0, 65),
+    rgb(247, 0, 255),
+    yellow
+  );
+}
+
+.transition:hover {
+  height: 52px;
+  background: linear-gradient(
+    to right,
+    rgb(236, 126, 0),
+    rgb(255, 0, 140),
+    rgb(1, 255, 255)
+  );
+  transition: heigth 2s;
 }
 
 li a:hover {
