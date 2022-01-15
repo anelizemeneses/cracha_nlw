@@ -1,5 +1,5 @@
 const LinksSocialMedia = {
-  instagram: 'block.meneses',
+  instagram: 'anelizemenesess',
   linkedin: 'in/anelizemeneses/'
 }
 
