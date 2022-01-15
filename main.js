@@ -12,7 +12,6 @@ function changeSocialMediaLinks() {
 }
 
 // i = i + 1
-// i++
 // ser humano lê 12345678910, já o computador lê 0987654321
 
 changeSocialMediaLinks()
